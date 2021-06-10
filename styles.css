@@ -50,10 +50,11 @@ z-index: 1;
     left: 8%;
 }
 img{
-    width: 150px;
-    height: 110px;
+    width: 140px;
+    height: 80px;
     float: left;
     vertical-align:top;
+    
     
 }
 
@@ -69,4 +70,18 @@ img{
 }
 ul{
     list-style: none;
+}
+h4{
+    font-family:'Roboto';
+    font-size: 14px;
+    padding: auto;
+    margin:0;
+    
+}
+h5{
+    font-family:'Roboto';
+    font-size: 12px;
+    padding: 0px;
+    font-weight: lighter;
+    margin:6px;
 }
