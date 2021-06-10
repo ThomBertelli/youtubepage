@@ -38,6 +38,8 @@ z-index: 1;
     width:22%;
     right: 2px;
     height:980px;
+   
+    
 
 }
 #coments{
@@ -50,8 +52,21 @@ z-index: 1;
 img{
     width: 150px;
     height: 110px;
+    float: left;
+    vertical-align:top;
+    
 }
+
+.sugestions{
+    display: flex;
+    list-style: none;
+    
+}
+
 #texttumb{
-    position:sticky;
-    right: 1%;
+    display: block;
+    
+}
+ul{
+    list-style: none;
 }
