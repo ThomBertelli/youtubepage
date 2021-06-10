@@ -1,0 +1,57 @@
+#top{
+background-color: blue;
+position:fixed;
+width: 100%;
+top:0px;
+height: 50px;
+z-index: 1;
+
+}
+#mainvideo{
+    background-color: blueviolet;
+    position:relative;
+    top:50px;
+    width: 70%;
+    height: 500px;
+    left: 8%;
+}
+#title{
+    background-color: brown;
+    position: relative;
+    width: 70%;
+    height: 95px;
+    left: 8%;
+    
+}
+#description{
+    background-color: chartreuse;
+    position: relative;
+    width: 70%;
+    height: 170px;
+    left: 8%;
+
+}
+#sidebar{
+    background-color: cornflowerblue;
+    position:absolute;
+    top: 58px;;
+    width:22%;
+    right: 2px;
+    height:980px;
+
+}
+#coments{
+    background-color: yellow;
+    position: relative;
+    width: 70%;
+    height: 170px;
+    left: 8%;
+}
+img{
+    width: 150px;
+    height: 110px;
+}
+#texttumb{
+    position:sticky;
+    right: 1%;
+}
