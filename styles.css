@@ -1,6 +1,7 @@
 #top{
 background-color: white;    
 position:fixed;
+display: flex;
 width: 100%;
 top:0px;
 height: 50px;
@@ -9,13 +10,17 @@ z-index: 1;
 }
 #mainvideo{
     position:relative;
-    top:50px;
-    width: 100%;
-    height: 100%;
+    display: flex;
+    flex-wrap: nowrap;
+    width: 70%;
+    min-height: 700px;
+    max-height: 700px;    
     left: 8%;
+    margin-top: 60px;
 }
 #title{
     background-color: brown;
+    display: flex;
     position: relative;
     width: 70%;
     height: 95px;
@@ -24,6 +29,7 @@ z-index: 1;
 }
 #description{
     background-color: chartreuse;
+    display: flex;
     position: relative;
     width: 70%;
     height: 170px;
@@ -36,50 +42,32 @@ z-index: 1;
     width:22%;
     right: 2px;
     height:980px;
-   
-    
+}
 
-}
-#coments{
-    background-color: yellow;
-    position: relative;
-    width: 70%;
-    height: 170px;
-    left: 8%;
-}
+
 #tumbs{
-    width: 140px;
-    height: 80px;
-    float: left;
-    vertical-align:top;
-    }
-
-.sugestions{
     display: flex;
-    list-style: none;
-    
-}
-
-#texttumb{
-    display: block;
-    
-}
-ul{
-    list-style: none;
-}
+    justify-content: center;
+    width: 140px;
+    height: 90px;
+    padding-bottom: 6px;
+          
+ }
 h4{
     font-family:'Roboto';
     font-size: 14px;
-    padding: auto;
-    margin:0;
+    display: flex;
+    margin-top: -80px;
+    margin-left: 140px;
     
+
 }
-h5{
+p{
     font-family:'Roboto';
     font-size: 12px;
-    padding: 0px;
-    font-weight: lighter;
-    margin:6px;
+    display: flex;
+    margin-left: 140px;
+        
 }
 
 #menubar{
@@ -145,3 +133,11 @@ h5{
     position: relative;
     margin-left: 30%;
 }
+#coments{
+    background-color: yellow;
+    display: flex;
+    position: relative;
+    width: 70%;
+    height: 170px;
+    left: 8%;
+}        
