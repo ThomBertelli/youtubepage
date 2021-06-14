@@ -27,6 +27,19 @@ z-index: 1;
     left: 8%;
     
 }
+#titletext{
+    justify-content: left;
+    font-family: "Roboto";
+    font-style: normal;
+}
+#views{
+    font-family: "Roboto";
+    position:absolute;
+    margin-top: 50px;
+    
+}
+
+
 #description{
     background-color: chartreuse;
     display: flex;
@@ -50,19 +63,20 @@ z-index: 1;
     justify-content: center;
     width: 140px;
     height: 90px;
-    padding-bottom: 6px;
+    margin-bottom: 10px;
           
  }
-h4{
+.sugesttitles{
     font-family:'Roboto';
     font-size: 14px;
     display: flex;
-    margin-top: -80px;
+    margin-top: -95px;
     margin-left: 140px;
+    padding: 0px;
     
 
 }
-p{
+.sugestinfo{
     font-family:'Roboto';
     font-size: 12px;
     display: flex;
@@ -81,6 +95,7 @@ p{
     display: inline-block;
     width: 70px;
     height: 25px;
+    margin-top: 10px;
 }
 .searchbar{
     display:inline-block;
@@ -91,48 +106,69 @@ p{
     font-size: 20px;
     font-weight: lighter;
     border: solid 1px;
-   
+    margin-top: 10px;
     padding-left: 10px;
 }
 
-#keyboard{
-    width: 27px;
-    height: 24px;
-    display: block;
-    border: solid 1px;
-    padding-top: 2px;
-    margin-top: -28px;
-   margin-left: 80%;   
-}
 .keyboard{
     color: black;
     align-items: center;
     display: inline-block;
     margin-left: -30px;
+    margin-top: 16px;
   
 }
 .searchicon{
     color: black;
     display:inline-block;
     border: solid 1px;
-    border-left: none;
     padding-left: 28px;
     padding-right: 25px;
-    padding-top: 6px;
-    padding-bottom: 2px;
-    margin-left: -3px;
-
+    padding-top: 1px;
+    padding-bottom: 1px;
+    margin-top: 10px;
+    margin-left: 5px;
+    border-left: none;
 }
 #mic{
-    position:absolute;
-    padding-top: 15px;
-    padding-left: 30px;
+    display: inline-block;
+    position: absolute;
+    width: 24px;
+    margin-top: 12px;
+    right: 36%;    
     
 }
 .apps{
-    position: relative;
-    margin-left: 30%;
+    display: inline-block;
+    position: absolute;
+    width: 24px;
+    margin: 10px;
+    right: 5%;
 }
+
+.perfil{
+    display: inline-block;
+    position: absolute;
+    border-radius: 50%;
+    width: 32px;
+    margin-top: 7px;
+    right:2%;
+}
+.notif{
+    display: inline-block;
+    position: absolute;
+    width: 24px;
+    margin-top: 10px;
+    right: 4%;
+}
+.newvideo{
+    display: inline-block;
+    position: absolute;
+    width: 24px;
+    margin-top: 10px;
+    right: 7%;
+}
+
 #coments{
     background-color: yellow;
     display: flex;
