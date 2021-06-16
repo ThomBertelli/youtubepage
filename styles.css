@@ -19,13 +19,11 @@ z-index: 1;
     margin-top: 60px;
 }
 #title{
-    background-color: brown;
     display: flex;
     position: relative;
     width: 70%;
     height: 95px;
-    left: 8%;
-    
+    left: 8%; 
 }
 #titletext{
     justify-content: left;
@@ -35,20 +33,114 @@ z-index: 1;
 #views{
     font-family: "Roboto";
     position:absolute;
-    margin-top: 50px;
-    
+    margin-top: 50px;    
 }
+a {
+    text-decoration: none;
+    font-family: "Roboto";
+    color: black;
+}
+.like{
+    position:absolute;
+    right: 19%;
+    margin-top: 50px; 
+}
+.numlikes{
+    position:absolute;
+    right: 17%;
+   padding-top: 37px; 
+}
+.numdislikes{
+    position:absolute;
+    right: 13.5%;
+   padding-top: 37px; 
+}
+.dislike{
+    position:absolute;
+    right: 14%;
+   margin-top: 3px; 
+}
+.share{
+    position:absolute;
+    right: 11%;
+   padding-top: 37px; 
+}
+.sharetext{
+    position:absolute;
+    right: 7.5%;
+   padding-top: 37px;   
+}
+.save{
+    position:absolute;
+    right: 5.5%;
+   padding-top: 50px;
+   
 
-
+}
+.savetext{
+    position:absolute;
+    right: 3%;
+   padding-top: 37px;  
+}
+.more{
+    position:absolute;
+    right: 1%;
+   padding-top: 50px;  
+}
+.dislike{
+    padding-top: 50px;
+    padding-left: 25px;
+    padding-right: 10px;    
+}
+.share{
+    padding-top: 50px;
+}
 #description{
-    background-color: chartreuse;
     display: flex;
     position: relative;
     width: 70%;
     height: 170px;
     left: 8%;
-
+    font-family: "Roboto";
+    border-top: solid 0.5px;
 }
+.creatorprofile{
+    border-radius: 50%;
+    width: 48px;
+    height: 48px;
+    margin-top: 10px;
+}
+.subsbutton{
+    position: absolute;
+    border-radius: 2%;
+    border:none;
+    width: 160px;
+    height: 40px;
+    background-color: #c00;
+    font-weight: bolder;
+    font-size: 18px;
+    color: white;
+    right: 2%;
+    margin-top:20px;
+}
+.descri{
+    position: absolute;
+    margin-top: 80px;
+    margin-left: 60px;
+    margin-right: 25px;
+    text-align: justify;
+}
+.numsubs{
+    position: absolute;
+    margin-left: 60px;
+    margin-top:35px ;
+    font-size: 15px;
+}
+.creatorname{
+    position: absolute;
+    margin-left:60px ;
+}
+
 #sidebar{
     position:absolute;
     top: 58px;;
@@ -135,7 +227,7 @@ z-index: 1;
     position: absolute;
     width: 24px;
     margin-top: 12px;
-    right: 36%;    
+    margin-left: 40px;    
     
 }
 .apps{
