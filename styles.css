@@ -12,18 +12,17 @@ z-index: 1;
     position:relative;
     display: flex;
     flex-wrap: nowrap;
-    width: 70%;
-    min-height: 700px;
-    max-height: 700px;    
-    left: 8%;
-    margin-top: 60px;
+    width: 25%;
+    height: 360px;   
+    left: 29%;
+    margin-top: 90px;
 }
 #title{
     display: flex;
     position: relative;
-    width: 70%;
+    width: 25%;
     height: 95px;
-    left: 8%; 
+    left: 29%; 
 }
 #titletext{
     justify-content: left;
@@ -42,44 +41,42 @@ a {
 }
 .like{
     position:absolute;
-    right: 19%;
+    right: 55%;
     margin-top: 50px; 
 }
 .numlikes{
     position:absolute;
-    right: 17%;
+    right: 50%;
    padding-top: 37px; 
 }
 .numdislikes{
     position:absolute;
-    right: 13.5%;
+    right: 39%;
    padding-top: 37px; 
 }
 .dislike{
     position:absolute;
-    right: 14%;
-   margin-top: 3px; 
+    right: 42%;
+    margin-top: 50px;
 }
 .share{
     position:absolute;
-    right: 11%;
+    right: 31%;
    padding-top: 37px; 
 }
 .sharetext{
     position:absolute;
-    right: 7.5%;
+    right: 22%;
    padding-top: 37px;   
 }
 .save{
     position:absolute;
-    right: 5.5%;
-   padding-top: 50px;
-   
-
+    right: 15%;
+   padding-top: 50px; 
 }
 .savetext{
     position:absolute;
-    right: 3%;
+    right:8%;
    padding-top: 37px;  
 }
 .more{
@@ -87,22 +84,17 @@ a {
     right: 1%;
    padding-top: 50px;  
 }
-.dislike{
-    padding-top: 50px;
-    padding-left: 25px;
-    padding-right: 10px;    
-}
 .share{
     padding-top: 50px;
 }
 #description{
     display: flex;
     position: relative;
-    width: 70%;
+    width: 25%;
     height: 170px;
-    left: 8%;
+    left: 29%;
     font-family: "Roboto";
-    border-top: solid 0.5px;
+    border-top: solid 0.1px;
 }
 .creatorprofile{
     border-radius: 50%;
@@ -130,10 +122,24 @@ a {
     margin-right: 25px;
     text-align: justify;
 }
+.showmore{
+    background-color:white;
+    z-index: 0;
+    width: 100%;
+    height: 30px;
+    text-align: left;
+    font-family: "Roboto";
+    font-weight: bolder;
+    font-size: 13px;
+    margin-top: 140px;
+    border: none;
+    margin-left: 6px;
+
+}
 .numsubs{
     position: absolute;
     margin-left: 60px;
-    margin-top:35px ;
+    margin-top:40px ;
     font-size: 15px;
 }
 .creatorname{
@@ -143,9 +149,9 @@ a {
 
 #sidebar{
     position:absolute;
-    top: 58px;;
+    top: 200px;;
     width:22%;
-    right: 2px;
+    right: 23%;
     height:980px;
 }
 
@@ -193,7 +199,7 @@ a {
     display:inline-block;
     width: 531px;
     height: 24px;
-    margin-left: 32%;
+    margin-left: 31%;
     font-family: "Roboto";
     font-size: 20px;
     font-weight: lighter;
@@ -265,7 +271,45 @@ a {
     background-color: yellow;
     display: flex;
     position: relative;
-    width: 70%;
-    height: 170px;
-    left: 8%;
-}        
+    width: 25%;
+    height: 500px;
+    left: 29%;
+    border-top: solid 0.5px;
+}
+p{
+    font-family: "Roboto";
+}
+.numcomments{
+    margin-top: 20px;
+    font-size: 16px;
+}
+.sort{
+    margin-top: 20px;
+    margin-left: 45px;
+    width: 24px;
+    height: 24px;
+}
+.sorttext{
+    font-size: 14px;
+    font-weight: bolder;
+    padding-left: 10px;
+    padding-top: 8px;
+}
+.comentsprofile{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    position: absolute;
+    margin-top: 60px;
+}
+.commentform{
+    position: absolute;
+    width: 91.5%;
+    height: 25px;
+    border:solid 0.5px;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    margin-top: 60px;
+    margin-left: 50px;
+}     
